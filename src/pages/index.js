@@ -1,12 +1,22 @@
-import React from 'react'
+import React, {useState} from 'react';
 import Sidebar from '../components/Sidebar';
 import Navbar from '../components/Navbar';
-import { BrowserRouter as Router } from 'react-router-dom';
+import MainSection from '../components/Main';
+
+
 const Home = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggle = () => {
+        // e.preventDefault()
+        setIsOpen(!isOpen)
+    }
+
     return (
     <>
-        <Sidebar />
-        <Navbar />
+        <Sidebar isOpen={isOpen} toggle={toggle} />
+        <Navbar  toggle={toggle} />
+        <MainSection />
     </>
     );
 };
