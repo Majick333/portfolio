@@ -3,6 +3,8 @@ import Sidebar from '../components/Sidebar';
 import Navbar from '../components/Navbar';
 import MainSection from '../components/Main';
 import InfoDisplay from '../components/InfoDisplay';
+import { aboutSlide } from '../components/InfoDisplay/Data';
+import Work from '../components/Work/'
 
 
 const Home = () => {
@@ -18,7 +20,9 @@ const Home = () => {
         <Sidebar isOpen={isOpen} toggle={toggle} />
         <Navbar  toggle={toggle} />
         <MainSection />
-        <InfoDisplay />
+        <InfoDisplay {...aboutSlide}/>
+        <Work/>
+
     </> 
     );
 };
