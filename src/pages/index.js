@@ -5,6 +5,7 @@ import MainSection from '../components/Main';
 import InfoDisplay from '../components/InfoDisplay';
 import { aboutSlide } from '../components/InfoDisplay/Data';
 import Work from '../components/Work/'
+import Footer from '../components/Footer';
 
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
         <MainSection />
         <InfoDisplay {...aboutSlide}/>
         <Work/>
+        <Footer/>
 
     </> 
     );
