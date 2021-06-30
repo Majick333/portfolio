@@ -12,8 +12,8 @@ export const aboutSlide = {
     buttonLabel: "Contact Me",
     imgStart: false,
 
-    img: require('../../images/about.svg'),
-    alt: 'about',
+    img: require('../../images/profile.jpg'),
+    alt: require('../../images/profile.jpg'),
     dark: false,
     primary: true,
     darkText: false

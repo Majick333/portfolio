@@ -27,7 +27,7 @@ const Navbar = ({toggle}) => {
 
     return (
         <>
-            <Nav>
+            <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
                     <NavLogo to='/'>RM</NavLogo>
                     <MobileIcon onClick={toggle}>

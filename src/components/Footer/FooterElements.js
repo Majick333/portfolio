@@ -32,14 +32,14 @@ export const LinkWrapper = styled.div
 display: flex;
 
 @media screen and (max-width: 820px) {
-    flex-direction: column;
+    flex-direction: row;
 }
 `
 
 export const LinkItems = styled.div
 `
 display: flex;
-flex-direction: column;
+flex-direction: row;
 align-items: flex-start;
 margin: 16px;
 text-align: left;

@@ -12,21 +12,27 @@ const WorkSection = () => {
             <WorkWrapper>
 
                 <WorkCard>
+                    <a href='https://github.com/Majick333/SinatraProject' target='_blank' rel="noreferrer">
                     <WorkIcon src={Icon1}/>
-                    <WorkH2>Project Name</WorkH2>
-                    <WorkDescription>Project Description</WorkDescription>
+                    </a>
+                    <WorkH2>Task Manager</WorkH2>
+                    <WorkDescription>Task Manager Built on Ruby's Sinatra Framework</WorkDescription>                   
                 </WorkCard>
 
                 <WorkCard>
-                    <WorkIcon src={Icon2}/>
-                    <WorkH2>Project Name</WorkH2>
-                    <WorkDescription>Project Description</WorkDescription>
+                    <a href='https://github.com/Majick333/notebook-project' target='_blank' rel="noreferrer">
+                    <WorkIcon src={Icon2} />
+                    </a>
+                    <WorkH2>Organizer on Rails</WorkH2>
+                    <WorkDescription>A notebook app with calendar functionality</WorkDescription>                  
                 </WorkCard>
 
                 <WorkCard>
+                    <a href='https://github.com/Majick333/flatiron-js-project' target='_blank' rel="noreferrer">
                     <WorkIcon src={Icon3}/>
-                    <WorkH2>Project Name</WorkH2>
-                    <WorkDescription>Project Description</WorkDescription>
+                    </a>
+                    <WorkH2>JavaScript Chat</WorkH2>
+                    <WorkDescription>A chat app made with vanilla javascript</WorkDescription>   
                 </WorkCard>
 
             </WorkWrapper>

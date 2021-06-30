@@ -3,7 +3,7 @@ import { Button } from '../ButtonElements';
 import { InfoDisplayContainer, InfoDisplayWrapper,
          DisplayRow, Column1, Top, Heading,
          Subtitle, ButtonWrapper, InfoTextWrapper,
-         Column2, ImageWrap,Img } from './InfoDisplayElements';
+         Column2, ImageWrap, Img } from './InfoDisplayElements';
 
 
 const InfoDisplay = ({
