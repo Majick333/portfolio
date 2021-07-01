@@ -20,3 +20,21 @@ export const aboutSlide = {
 
 };
 
+export const blogSlide = {
+    id: 'blog',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    top: "Some random thoughts...",
+    heading: "on Coding",
+    subtitle: "",
+    description: "",
+    buttonLabel: "View Blog",
+    imgStart: false,
+
+    // img: require('../../images/profile.jpg'),
+    // alt: require('../../images/profile.jpg'),
+    dark: true,
+    primary: true,
+    darkText: true    
+}
