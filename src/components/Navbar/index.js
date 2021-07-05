@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import {Link} from 'react-router-dom';
 import {FaBars} from 'react-icons/fa';
 import { Nav,
      NavbarContainer,
@@ -7,6 +8,7 @@ import { Nav,
      NavMenu, 
      NavItem, 
      NavLinks } from './Elements';
+import ContactPage from '../../pages/contact';
  
 
 const Navbar = ({toggle}) => {
@@ -48,7 +50,8 @@ const Navbar = ({toggle}) => {
                         </NavItem>
 
                         <NavItem>
-                            <NavLinks to='contact'>Contact</NavLinks>
+                            <NavLinks> <Link to='/contact'> Contact </Link> </NavLinks>
+                            {/* <Route path="/contact" component={ContactPage} exact /> */}
                         </NavItem>
 
 
