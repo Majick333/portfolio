@@ -14,6 +14,7 @@ export const postContactRequest = request => {
             headers: {'Content-Type': 'application/json'}})
             .then(resp => resp.json())
             .then(request => dispatch({type: 'POST_REQUEST', payload: request}))
+            .then(alert('Thank you for your message'))
     }
     
 }

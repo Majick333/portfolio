@@ -11,8 +11,7 @@ export const aboutSlide = {
     description: "Reach out for a free quote from me about your new business or personal website",
     buttonLabel: "Contact Me",
     imgStart: false,
-
-    img: require('../../images/profile.jpg'),
+    Img: require('../../images/portfolio.jpeg'),
     alt: require('../../images/profile.jpg'),
     dark: false,
     primary: true,
@@ -22,9 +21,9 @@ export const aboutSlide = {
 
 export const blogSlide = {
     id: 'blog',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
     top: "Some random thoughts...",
     heading: "on Coding",
     subtitle: "",

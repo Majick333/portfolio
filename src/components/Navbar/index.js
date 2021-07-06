@@ -8,7 +8,6 @@ import { Nav,
      NavMenu, 
      NavItem, 
      NavLinks } from './Elements';
-import ContactPage from '../../pages/contact';
  
 
 const Navbar = ({toggle}) => {
