@@ -4,6 +4,8 @@ import { InfoDisplayContainer, InfoDisplayWrapper,
          DisplayRow, Column1, Top, Heading,
          Subtitle, ButtonWrapper, InfoTextWrapper,
          Column2, ImageWrap, Img } from './InfoDisplayElements';
+import myProfilePic from '../../images/portfolio.jpeg'
+
 
 
 const InfoDisplay = ({
@@ -20,13 +22,13 @@ const InfoDisplay = ({
                                 <Heading lightText={lightText}>{heading}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                     <ButtonWrapper>
-                                        <Button to='home' smooth={true} duration={500} spy={true} exact={true} offset={-80} primary={primary ? 1 : 0} dark={dark ? 1: 0}>{buttonLabel}</Button>
+                                        <Button exact to='/contact' smooth={true} duration={500} spy={true} exact={true} offset={-80} primary={primary ? 1 : 0} dark={dark ? 1: 0}>{buttonLabel}</Button>
                                     </ButtonWrapper>
                             </InfoTextWrapper>            
                       </Column1>
                         <Column2>
                             <ImageWrap>
-                                <Img src={img} alt={alt}/>
+                                <Img src={myProfilePic} alt={alt}/>
                             </ImageWrap>
                         </Column2>
                   </DisplayRow>

@@ -1,18 +1,18 @@
-
+import myProfilePic from '../../images/portfolio.jpeg'
 
 export const aboutSlide = {
     id: 'about',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    top: "About Me",
+    top: "More about",
     heading: "Ryan McCauley",
     subtitle: "I'm an independant web developer",
-    description: "Reach out for a free quote from me about your new business or personal website",
+    description: "Contact me and let's talk about making your website idea into reality",
     buttonLabel: "Contact Me",
     imgStart: false,
-    Img: require('../../images/portfolio.jpeg'),
-    alt: require('../../images/profile.jpg'),
+    img:{myProfilePic},
+    alt: {myProfilePic},
     dark: false,
     primary: true,
     darkText: false

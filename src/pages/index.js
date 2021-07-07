@@ -21,9 +21,8 @@ const Home = () => {
         <Sidebar isOpen={isOpen} toggle={toggle} />
         <Navbar  toggle={toggle} />
         <MainSection />
-        <InfoDisplay {...aboutSlide}/>
         <Work/>
-        <InfoDisplay {...blogSlide}/>
+        <InfoDisplay {...aboutSlide}/>
         <Footer/>
 
     </> 

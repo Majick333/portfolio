@@ -7,7 +7,8 @@ import { Nav,
      MobileIcon, 
      NavMenu, 
      NavItem, 
-     NavLinks } from './Elements';
+     NavLinks,
+     RLink } from './Elements';
  
 
 const Navbar = ({toggle}) => {
@@ -49,7 +50,7 @@ const Navbar = ({toggle}) => {
                         </NavItem>
 
                         <NavItem>
-                            <NavLinks> <Link to='/contact'> Contact </Link> </NavLinks>
+                            <RLink to='/contact'> Contact  </RLink>
                             {/* <Route path="/contact" component={ContactPage} exact /> */}
                         </NavItem>
 
