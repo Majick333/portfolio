@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube, FaBlogger } from 'react-icons/fa'
 import { FooterContainer, FooterWrapper, LinkContainer, 
          LinkWrapper, LinkItems, LinkTitle, FooterLink,
         SocialMedia, SocialMediaWrapper, SocialLogo, SocialLinkIcon, SiteRights } from './FooterElements'
@@ -10,13 +10,13 @@ const Footer = () => {
             <FooterWrapper>
                 <LinkContainer> 
                     <LinkWrapper> 
-                        <LinkItems>
+                        {/* <LinkItems>
                             <LinkTitle> Footer  </LinkTitle>
                                 <FooterLink to='/'> Link </FooterLink>
                                 <FooterLink to='/'> Link </FooterLink>
                                 <FooterLink to='/'> Link </FooterLink>
                                 <FooterLink to='/'> Link </FooterLink>
-                        </LinkItems>
+                        </LinkItems> */}
                     </LinkWrapper>
                 </LinkContainer>
                     <SocialMedia>
@@ -35,7 +35,11 @@ const Footer = () => {
                                     <FaYoutube/>
                                 </SocialLinkIcon>
 
-                                <SocialLinkIcon href='/' target='_blank' aria-label="Twitter">
+                                <SocialLinkIcon href='https://thisabstractcode.blogspot.com/' target='_blank' aria-label="Blog">
+                                    <FaBlogger/>
+                                </SocialLinkIcon>
+
+                                <SocialLinkIcon href='https://twitter.com/RyanMcC87554176/' target='_blank' aria-label="Blog">
                                     <FaTwitter/>
                                 </SocialLinkIcon>
 

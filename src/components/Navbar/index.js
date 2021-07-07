@@ -45,15 +45,14 @@ const Navbar = ({toggle}) => {
                             <NavLinks to='projects'>Projects</NavLinks>
                         </NavItem>
 
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLinks to='blog'>Blog</NavLinks>
-                        </NavItem>
+                        </NavItem> */}
 
                         <NavItem>
                             <RLink to='/contact'> Contact  </RLink>
                             {/* <Route path="/contact" component={ContactPage} exact /> */}
                         </NavItem>
-
 
                     </NavMenu>
                 </NavbarContainer>
