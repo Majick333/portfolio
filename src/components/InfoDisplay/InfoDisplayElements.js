@@ -49,6 +49,7 @@ export const Heading = styled.h1
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
+    font-family: 'Megrim', cursive;
     color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
 
         @media screen and (max-width: 480px){
@@ -110,3 +111,22 @@ export const DisplayRow = styled.div    `
         @media screen and (max-width: 768px){ 
             grid-template-areas: ${ ({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)}
         }`;
+
+export const TechnologyIcon = styled.a
+    `
+    color:#fff;
+    font-size: 24px;
+    `;
+
+export const IconWrapper = styled.div
+    `
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 40px auto 0 auto;
+
+    @media screen and (max-width: 820px){
+        flex-direction: column;
+    }
+    `

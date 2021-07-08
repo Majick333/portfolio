@@ -5,10 +5,10 @@ export const aboutSlide = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    top: "More about",
-    heading: "Ryan McCauley",
-    subtitle: "I'm an independant web developer",
-    description: "Contact me and let's talk about making your website idea into reality",
+    top: "",
+    heading: "About me",
+    subtitle: "",
+    description: "I'm an independant web developer located in the east Texas area.",
     buttonLabel: "Contact Me",
     imgStart: false,
     img:{myProfilePic},
@@ -36,4 +36,4 @@ export const blogSlide = {
     dark: true,
     primary: true,
     darkText: true    
-}
+};

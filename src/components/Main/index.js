@@ -18,7 +18,8 @@ const MainSection = () => {
                 <MainContent>
                     <MainHeader> Ryan McCauley </MainHeader>
                     <MainP> Musician, Developer, Tinkerer </MainP>
-                    <Button to='github' onMouseEnter={onHover} onMouseLeave={onHover}>GitHub</Button>
+                    <br/>
+                    <Button to='/contact' target='_blank' onMouseEnter={onHover} onMouseLeave={onHover}>Contact Me</Button>
                 </MainContent>
         </MainContainer>
     )

@@ -8,7 +8,7 @@ import { WorkContainer, WorkH1, WorkWrapper,
 const WorkSection = () => {
     return (
         <WorkContainer id='projects'>
-            <WorkH1>My Projects</WorkH1>
+            <WorkH1>Projects</WorkH1>
             <WorkWrapper>
 
                 <WorkCard>

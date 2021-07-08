@@ -103,6 +103,7 @@ display: flex;
 align-items: center;
 margin-bottom: 16px;
 font-weight: bold;
+font-family: 'Megrim';
 `
 
 export const SiteRights = styled.small

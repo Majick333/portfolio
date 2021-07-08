@@ -1,3 +1,5 @@
+
+
 export const fetchContactRequests = () => {
     return (dispatch) => {
         fetch('http://localhost:3000/contact_requests')
@@ -7,6 +9,8 @@ export const fetchContactRequests = () => {
 }
 
 export const postContactRequest = request => {
+
+    
     return dispatch =>{
         fetch('http://localhost:3000/contact_requests', {
             method: 'POST',
@@ -14,7 +18,9 @@ export const postContactRequest = request => {
             headers: {'Content-Type': 'application/json'}})
             .then(resp => resp.json())
             .then(request => dispatch({type: 'POST_REQUEST', payload: request}))
-            .then(alert('Thank you for your message'))
+            // .then(alert('Thank you for your message'))
+            .then(window.localStorage.href = 'http://localhost:3001')                    
+        }
+
+        
     }
-    
-}
