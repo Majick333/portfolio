@@ -13,7 +13,6 @@ const ContactList = ({contacts}) => {
                 <br/>
                 <ul>
                 {contacts.map(contact =>  <li key={contact.id}>
-                    {/* <button>Delete</button> */}
                      Name::{contact.name} Email::{contact.email} Phone::{contact.phone}
                 <br/>
                 Info::{contact.message}
