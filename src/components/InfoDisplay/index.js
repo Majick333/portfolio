@@ -21,25 +21,25 @@ const InfoDisplay = ({
                             <InfoTextWrapper>
                                 <Top><IconWrapper>
                                     
-                                    <TechnologyIcon>
-                                        <FaGem/>
-                                    </TechnologyIcon>
+                                    <TechnologyIcon >
+                                        <FaGem /> Ruby::
+                                    </TechnologyIcon> <br/>
 
                                     <TechnologyIcon>
-                                        <FaJs/>
-                                    </TechnologyIcon>
+                                        <FaJs/> JavaScript::
+                                    </TechnologyIcon> <br/>
 
                                     <TechnologyIcon>
-                                        <FaReact/>
-                                    </TechnologyIcon>
+                                        <FaReact/> React::
+                                    </TechnologyIcon> <br/>
 
                                     <TechnologyIcon>
-                                        <FaHtml5/>
-                                    </TechnologyIcon>
+                                        <FaHtml5/> HTML5::
+                                    </TechnologyIcon> <br/>
                                     
                                     <TechnologyIcon>
-                                        <FaCss3/>
-                                    </TechnologyIcon>
+                                        <FaCss3/> CSS
+                                    </TechnologyIcon> <br/>
 
                                     </IconWrapper></Top>
 
@@ -47,7 +47,7 @@ const InfoDisplay = ({
                                 
                                 <Heading lightText={lightText}>{heading}</Heading>
                                 
-                                <Subtitle darkText={darkText}>{description}</Subtitle>
+                                <Subtitle darkText={darkText}> {description} </Subtitle>
                                     <ButtonWrapper>
                                         <Button exact to='/contact' smooth={true} duration={500} spy={true} offset={-80} primary={primary ? 1 : 0} dark={dark ? 1: 0}>{buttonLabel}</Button>
                                     </ButtonWrapper>

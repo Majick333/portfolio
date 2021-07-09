@@ -115,7 +115,10 @@ export const DisplayRow = styled.div    `
 export const TechnologyIcon = styled.a
     `
     color:#fff;
-    font-size: 24px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    font-family: 'fira-code', monospace;
     `;
 
 export const IconWrapper = styled.div

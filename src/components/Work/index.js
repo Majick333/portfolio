@@ -12,7 +12,7 @@ const WorkSection = () => {
             <WorkWrapper>
 
                 <WorkCard>
-                    <a href='https://github.com/Majick333/SinatraProject' target='_blank' rel="noreferrer">
+                    <a href='https://github.com/Majick333/SinatraProject' target='_blank' rel="noreferrer" >
                     <WorkIcon src={Icon1}/>
                     </a>
                     <WorkH2>Task Manager</WorkH2>

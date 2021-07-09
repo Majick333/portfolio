@@ -20,7 +20,7 @@ const Footer = () => {
                 </LinkContainer>
                     <SocialMedia>
                         <SocialMediaWrapper>
-                            <SocialLogo to='/'>Ryan McCauley</SocialLogo> ::
+                            <SocialLogo to='/'>Ryan McCauley::::</SocialLogo> ::
 
                                 <SocialLinkIcon href='https://www.facebook.com/ryan.mccauley.921/' target='_blank' aria-label="Facebook">
                                     <FaFacebook/>

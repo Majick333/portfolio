@@ -7,6 +7,8 @@ import Navbar from '../Navbar';
 
 class Dashboard extends Component {
 
+    //*delay component render until after dom loads
+    
     componentDidMount(){
         this.props.fetchContactRequests()
     }
