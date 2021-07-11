@@ -1,15 +1,13 @@
 import styled from 'styled-components';
-import blog1 from '../../images/blog1.png'
 
 export const BlogContainer = styled.div 
 `
-    height: 1000px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #010606;
-    
 
         @media screen and (max-width: 768px){
             height: 1100px;
@@ -51,7 +49,7 @@ export const BlogWrapper = styled.div
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
-        grid-gap: 20px;
+        grid-gap: 16px;
         padding: 0 50px;
 
             @media screen and (max-width: 1000px) {
@@ -72,8 +70,8 @@ export const BlogCard = styled.div
             justify-content: flex-start;
             align-items: center;
             border-radius: 10px;
-            max-height: 450px;
-            padding: 20px;
+            max-height: 340px;
+            padding: 30px;
             box-shadow: 0 1px 3px rgba(0,0,0,0.2);
             transition: 0.3s ease-in-out;
 
@@ -86,8 +84,8 @@ export const BlogCard = styled.div
 
 export const BlogIcon = styled.img
 `
-            height: 300px;
-            width: 300px;
+            height: 160px;
+            width: 160px;
             margin-bottom: 10px;
             text-decoration: none;
 `;

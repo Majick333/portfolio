@@ -8,7 +8,9 @@ import { BlogContainer, BlogH1, BlogWrapper,
 const BlogSection = () => {
     return (
         <BlogContainer id='blog'>
-            <BlogH1>Blog</BlogH1>
+
+        <BlogH1>Blog</BlogH1>      
+
             <BlogWrapper>
 
                 <BlogCard>
