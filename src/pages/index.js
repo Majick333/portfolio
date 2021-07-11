@@ -5,6 +5,7 @@ import MainSection from '../components/Main';
 import InfoDisplay from '../components/InfoDisplay';
 import { aboutSlide } from '../components/InfoDisplay/Data';
 import Work from '../components/Work/'
+import BlogSection from '../components/Blog'
 import Footer from '../components/Footer';
 
 
@@ -22,6 +23,7 @@ const Home = () => {
         <Navbar  toggle={toggle} />
         <MainSection />
         <Work/>
+        <BlogSection />
         <InfoDisplay {...aboutSlide}/>
         <Footer/>
 
